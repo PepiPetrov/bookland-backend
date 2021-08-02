@@ -3,7 +3,7 @@ const model = require('../models/Comment')
 const Book = require('../models/Book')
 const jwt = require('../util/jwt')
 
-connect('mongodb://localhost/books', {
+connect('mongodb+srv://pepi:pepi@bookland.uowng.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useFindAndModify: true
