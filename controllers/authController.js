@@ -3,7 +3,7 @@ const model = require('../models/User')
 const bcrypt = require('../util/bcrypt')
 const token = require('../util/jwt')
 
-connect('mongodb://localhost/books', {
+connect('mongodb+srv://pepi:pepi@bookland.uowng.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useFindAndModify: true
